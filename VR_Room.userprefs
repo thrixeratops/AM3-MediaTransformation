@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/General/Player.cs">
+    <Files>
+      <File FileName="Assets/Scripts/General/Player.cs" Line="31" Column="3" />
+      <File FileName="Assets/Scripts/General/ProgressTracker.cs" Line="57" Column="97" />
+      <File FileName="Assets/Scripts/General/Teleporter.cs" Line="8" Column="74" />
+      <File FileName="Assets/Scripts/General/SwitchLight.cs" Line="27" Column="27" />
+      <File FileName="Assets/Scripts/General/InventoryObject.cs" Line="5" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

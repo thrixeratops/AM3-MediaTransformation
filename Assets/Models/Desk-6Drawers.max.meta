@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 111d556aaf4a22e41bb57a115cc55077
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Drawer-Bottom-Left
+    100006: Drawer-Bottom-Right
+    100008: Drawer-Middle-Right
+    100010: Drawer-Middle-Right 1
+    100012: Drawer-Top-Left
+    100014: Drawer-Top-Right
+    100016: Drawer-Top-Right 1
+    100018: Drawer-Top-Right001
+    100020: Drawer-Top-Right003
+    100022: Drawer-Top-Right005
+    100024: Drawer-Top-Right007
+    100026: Drawer-Top-Right009
+    100028: Torus001
+    100030: Torus002
+    100032: Torus003
+    100034: Torus004
+    100036: Torus005
+    100038: Torus006
+    400000: Box001
+    400002: //RootNode
+    400004: Drawer-Bottom-Left
+    400006: Drawer-Bottom-Right
+    400008: Drawer-Middle-Right
+    400010: Drawer-Middle-Right 1
+    400012: Drawer-Top-Left
+    400014: Drawer-Top-Right
+    400016: Drawer-Top-Right 1
+    400018: Drawer-Top-Right001
+    400020: Drawer-Top-Right003
+    400022: Drawer-Top-Right005
+    400024: Drawer-Top-Right007
+    400026: Drawer-Top-Right009
+    400028: Torus001
+    400030: Torus002
+    400032: Torus003
+    400034: Torus004
+    400036: Torus005
+    400038: Torus006
+    2100000: No Name
+    2300000: Box001
+    2300002: Drawer-Top-Right 1
+    2300004: Drawer-Top-Right001
+    2300006: Drawer-Top-Right003
+    2300008: Drawer-Top-Right005
+    2300010: Drawer-Top-Right007
+    2300012: Drawer-Top-Right009
+    2300014: Torus001
+    2300016: Torus002
+    2300018: Torus003
+    2300020: Torus004
+    2300022: Torus005
+    2300024: Torus006
+    3300000: Box001
+    3300002: Drawer-Top-Right 1
+    3300004: Drawer-Top-Right001
+    3300006: Drawer-Top-Right003
+    3300008: Drawer-Top-Right005
+    3300010: Drawer-Top-Right007
+    3300012: Drawer-Top-Right009
+    3300014: Torus001
+    3300016: Torus002
+    3300018: Torus003
+    3300020: Torus004
+    3300022: Torus005
+    3300024: Torus006
+    4300000: Box001
+    4300002: Torus001
+    4300004: Drawer-Top-Right
+    4300006: Drawer-Top-Right001
+    4300008: Torus002
+    4300010: Drawer-Top-Right003
+    4300012: Torus003
+    4300014: Drawer-Top-Right005
+    4300016: Torus004
+    4300018: Drawer-Top-Right007
+    4300020: Torus005
+    4300022: Drawer-Top-Right009
+    4300024: Torus006
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
