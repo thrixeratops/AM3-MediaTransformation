@@ -129,6 +129,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+d76cbfbd4b8c11854ecee5d2bce890b8 Assembly-CSharp.dll:.Player
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
 82c4df0703ee0c74fec7eda7f1754686 Assembly-CSharp.dll:.GvrAudioListener
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrPointerManager
@@ -151,6 +152,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+37c27d725f78ee8b05d3cd4b3453bfb4 Assembly-CSharp.dll:.ProgressTracker
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.HelloVR.ObjectController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerTooltipsSimple
@@ -159,6 +161,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
+03edf5148c5d2f9be54581070c20571d Assembly-CSharp.dll:.InventoryObject
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrControllerVisualManager
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 1f3a68064dbfa3445b5941d1d23a8ce5 Assembly-CSharp.dll:.GvrPointerPhysicsRaycaster
@@ -167,7 +170,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 773659ee139465de815012b250038305 Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoPlayerReference
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstantPreviewHelper
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorManager
-f29522deafa458b021d61d3f4393fd86 Assembly-CSharp.dll:.SwitchLight
+39c28f7f5ec0796362a6f0f9d59d26aa Assembly-CSharp.dll:.SwitchLight
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -193,5 +196,8 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRMan
 b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.WakeUp
-37c27d725f78ee8b05d3cd4b3453bfb4 Assembly-CSharp.dll:.ProgressTracker
-1e40eef1b721e8b29cbe22b1eacf48f1 Assembly-CSharp.dll:.Player
+1f286ed6a18bb7f79103d868f9f651d0 Assembly-CSharp.dll:.InventoryBook
+88c80ae2134f20072d16902162195799 Assembly-CSharp.dll:.NumPad
+020fe9ec0ef4dc333a701ac059d6ceab Assembly-CSharp.dll:.Casket
+03edf5148c5d2f9be54581070c20571d Assembly-CSharp.dll:.InventoryKey
+4af83d50a187bc20e7ebd758b6254e17 Assembly-CSharp.dll:.Door

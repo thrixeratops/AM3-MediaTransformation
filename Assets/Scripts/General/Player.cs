@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
 	[SerializeField] private ProgressTracker Tracker; // Keeps track of all the things the player has done
 	[SerializeField] private Canvas Hud;
 	[SerializeField] private float DelayTime; // Time that will pass until an event will be triggered
+	[SerializeField] private GameObject[] InventoryIcons;
 	private Image RadialProgress; // Image that respresents the FocusTimer on screen
 	private GameObject ActiveObject; // The interactive object that the player is looking at
 	private GameObject LastTeleporter; // The teleporter that was last used (, also functions as spawn point)
@@ -47,6 +48,12 @@ public class Player : MonoBehaviour {
 				
 				} else if (ActiveObject.GetComponent<InventoryObject>() != null) {
 					ActiveObject.GetComponent<InventoryObject>().activate();
+
+				} else if (ActiveObject.GetComponent<NumPad>() != null) {
+					ActiveObject.GetComponent<NumPad>().activate();
+				
+				} else if (ActiveObject.GetComponent<Door>() != null) {
+					ActiveObject.GetComponent<Door>().activate();
 				}
 
 				Focus = false; // Prevents the the continuos triggering of events by forcing the player to "re-look" at the object
@@ -78,15 +85,18 @@ public class Player : MonoBehaviour {
 		RadialProgress.fillAmount = 0f;
 	}
 
-	public void addToInventory(GameObject Item) {
+	public void addToInventory(GameObject Item, int IconNum) {
 		Inventory.Add(Item);
 		Item.GetComponent<MeshRenderer>().enabled = false;
-		// Show Item in HUD
+		Item.GetComponent<Collider>().enabled = false;
+		InventoryIcons[IconNum].GetComponent<SpriteRenderer>().enabled = true;
 	}
 
-	public void removeFromInventory(GameObject Item) {
+	public void removeFromInventory(GameObject Item, int IconNum) {
 		Inventory.Remove(Item);
 		Item.GetComponent<MeshRenderer>().enabled = true;
+		Item.GetComponent<Collider>().enabled = true;
+		InventoryIcons[IconNum].GetComponent<SpriteRenderer>().enabled = false;
 	}
 
 }

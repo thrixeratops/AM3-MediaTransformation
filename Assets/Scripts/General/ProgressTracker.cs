@@ -54,9 +54,20 @@ public class ProgressTracker : MonoBehaviour {
 		return StatusList[status];
 	}
 
-	// Returns the value of a status, useful to check, whether the player should be that far or not
+	// Returns the value of a status by int, useful to check, whether the player should be that far or not
 	public bool getStatusBool(int status) {
 		return Solved[status];
+	}
+
+	// Returns the value of a status by string, useful to check, whether the player should be that far or not
+	public bool getStatusBool(string statusName) {
+		for (int i=0; i<StatusList.Length; i++) {
+			if (StatusList[i] == statusName) {
+				return Solved[i];
+			}
+		}
+		Debug.LogWarning("The string '" + statusName + "' does not exist in StatusList[].");
+		return false;
 	}
 
 }

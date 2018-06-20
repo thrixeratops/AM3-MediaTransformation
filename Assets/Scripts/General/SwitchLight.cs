@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class SwitchLight : MonoBehaviour {
 
-	[SerializeField] private SpriteRenderer Wallpainting;
+	[SerializeField] private GameObject Wallpainting;
 	[SerializeField] private GameObject Lamp;
 	[SerializeField] private Animator TurnLightswitch;
+	private Component[] WallSprites;
 	private Component[] LampLights;
 	private GameObject Player;
 	private bool LightOn;
 
 	private void Start() {
 		TurnLightswitch = GetComponentInChildren<Animator>();
-		Wallpainting.GetComponent<SpriteRenderer>().enabled = false;
 		Player = GameObject.Find("Player");
+		WallSprites = Wallpainting.GetComponentsInChildren<SpriteRenderer>();
 		LampLights = Lamp.GetComponentsInChildren<Light>();
 		LightOn = true;
 	}
@@ -40,7 +41,9 @@ public class SwitchLight : MonoBehaviour {
 			foreach (Component item in LampLights) {
 				item.GetComponent<Light>().enabled = false;
 			}
-			Wallpainting.GetComponent<SpriteRenderer>().enabled = true;
+			foreach (Component item in WallSprites) {
+				item.GetComponent<SpriteRenderer>().enabled = true;
+			}
 			LightOn = false;
 			Player.GetComponent<Player>().getProgressTracker().setStatusDone("TurnLightOff");
 		} else {
@@ -48,7 +51,9 @@ public class SwitchLight : MonoBehaviour {
 			foreach (Component item in LampLights) {
 				item.GetComponent<Light>().enabled = true;
 			}
-			Wallpainting.GetComponent<SpriteRenderer>().enabled = false;
+			foreach (Component item in WallSprites) {
+				item.GetComponent<SpriteRenderer>().enabled = false;
+			}
 			LightOn = true;
 		}
 	}

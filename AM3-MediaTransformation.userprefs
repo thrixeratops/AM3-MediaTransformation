@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/General/Door.cs">
+    <Files>
+      <File FileName="Assets/Scripts/General/Player.cs" Line="52" Column="46" />
+      <File FileName="Assets/Scripts/General/ProgressTracker.cs" Line="58" Column="27" />
+      <File FileName="Assets/Scripts/General/SwitchLight.cs" Line="18" Column="27" />
+      <File FileName="Assets/Scripts/General/InventoryObject.cs" Line="28" Column="3" />
+      <File FileName="Assets/Scripts/General/InventoryBook.cs" Line="13" Column="82" />
+      <File FileName="Assets/Scripts/General/InventoryKey.cs" Line="14" Column="79" />
+      <File FileName="Assets/Scripts/General/Door.cs" Line="32" Column="30" />
+      <File FileName="Assets/Scripts/General/Casket.cs" Line="9" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

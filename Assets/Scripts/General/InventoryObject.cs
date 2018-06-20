@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class InventoryObject : MonoBehaviour {
 
-	private GameObject Player;
-	private bool isInInventory;
+	[SerializeField] protected int InvIconNum; // Refer to InventoryIcons[] in Player.cs (0 = Book, 1 = Key)
+	protected GameObject Player;
+	protected bool isInInventory;
 
-	private void Start() {
+	protected void Start() {
 		Player = GameObject.Find("Player");
 		isInInventory = false;
 	}
 
-	private void Update() {
+	protected void Update() {
 		
 	}
 
@@ -26,12 +27,12 @@ public class InventoryObject : MonoBehaviour {
 		Player.GetComponent<Player>().setOffFocus();
 	}
 
-	public void activate() {
+	public virtual void activate() {
 		if (isInInventory == true) {
-			Player.GetComponent<Player>().removeFromInventory(this.gameObject);
+			Player.GetComponent<Player>().removeFromInventory(this.gameObject, InvIconNum);
 			isInInventory = false;
 		} else {
-			Player.GetComponent<Player>().addToInventory(this.gameObject);
+			Player.GetComponent<Player>().addToInventory(this.gameObject, InvIconNum);
 			isInInventory = true;
 		}
 	}
