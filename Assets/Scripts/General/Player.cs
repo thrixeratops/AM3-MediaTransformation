@@ -54,6 +54,9 @@ public class Player : MonoBehaviour {
 				
 				} else if (ActiveObject.GetComponent<Door>() != null) {
 					ActiveObject.GetComponent<Door>().activate();
+				
+				} else if (ActiveObject.GetComponent<Laptop>() != null) {
+					ActiveObject.GetComponent<Laptop>().activate();
 				}
 
 				Focus = false; // Prevents the the continuos triggering of events by forcing the player to "re-look" at the object

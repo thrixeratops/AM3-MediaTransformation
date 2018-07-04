@@ -5,7 +5,7 @@ using UnityEngine;
 public class ProgressTracker : MonoBehaviour {
 
 	[SerializeField] private string[] StatusList; // Complete list of (names of) things that the player is able to achieve
-	private bool[] Solved; // In references to StatusList[], list of things that the player has achieved
+	[SerializeField] private bool[] Solved; // In references to StatusList[], list of things that the player has achieved
 	private int LastStatus; // Latest thing that the player has achieved
 
 	private void Start() {

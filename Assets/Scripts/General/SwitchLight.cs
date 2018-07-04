@@ -38,6 +38,7 @@ public class SwitchLight : MonoBehaviour {
 	public void activate() {
 		if (LightOn == true) {
 			TurnLightswitch.Play("LightSwitchOff");
+			GetComponent<AudioSource>().Play();
 			foreach (Component item in LampLights) {
 				item.GetComponent<Light>().enabled = false;
 			}
@@ -48,6 +49,7 @@ public class SwitchLight : MonoBehaviour {
 			Player.GetComponent<Player>().getProgressTracker().setStatusDone("TurnLightOff");
 		} else {
 			TurnLightswitch.Play("LightSwitchOn");
+			GetComponent<AudioSource>().Play();
 			foreach (Component item in LampLights) {
 				item.GetComponent<Light>().enabled = true;
 			}

@@ -160,6 +160,7 @@
      <Compile Include="Assets\Scripts\General\InventoryBook.cs" />
      <Compile Include="Assets\Scripts\General\InventoryKey.cs" />
      <Compile Include="Assets\Scripts\General\InventoryObject.cs" />
+     <Compile Include="Assets\Scripts\General\Laptop.cs" />
      <Compile Include="Assets\Scripts\General\NumPad.cs" />
      <Compile Include="Assets\Scripts\General\OpenDrawer.cs" />
      <Compile Include="Assets\Scripts\General\Player.cs" />

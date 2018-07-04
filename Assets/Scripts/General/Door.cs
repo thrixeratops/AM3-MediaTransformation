@@ -30,6 +30,7 @@ public class Door : MonoBehaviour {
 			return;
 		} else {
 			DoorAnim.Play("OpenDoor");
+			GetComponent<AudioSource>().Play();
 		}
 	}
 

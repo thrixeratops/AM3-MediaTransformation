@@ -6,10 +6,13 @@ using UnityEngine.UI;
 public class NumPad : MonoBehaviour {
 
 	[SerializeField] private int CorrectNumber;
+	[SerializeField] private GameObject NumSelector;
 	private GameObject Player;
 	private Component Casket;
 	private Text TextField;
 	private int DisplayedNumber;
+	private Component[] NumCollider;
+	private bool ShowNumSelector;
 
 	void Start() {
 		Player = GameObject.Find("Player");
@@ -17,6 +20,13 @@ public class NumPad : MonoBehaviour {
 		TextField = GetComponentInChildren<Text>();
 		DisplayedNumber = 0;
 		TextField.text = DisplayedNumber.ToString();
+		NumCollider = NumSelector.GetComponentsInChildren<Collider>();
+		ShowNumSelector = false;
+
+		NumSelector.GetComponent<Canvas>().enabled = false;
+		foreach (Component item in NumCollider) {
+			item.GetComponent<Collider>().enabled = false;
+		}
 	}
 
 	void Update() {
@@ -34,6 +44,21 @@ public class NumPad : MonoBehaviour {
 	}
 
 	public void activate() {
+		if (ShowNumSelector == true) {
+			NumSelector.GetComponent<Canvas>().enabled = false;
+			foreach (Component item in NumCollider) {
+				item.GetComponent<Collider>().enabled = false;
+			}
+			ShowNumSelector = false;
+		} else {
+			NumSelector.GetComponent<Canvas>().enabled = true;
+			foreach (Component item in NumCollider) {
+				item.GetComponent<Collider>().enabled = true;
+			}
+			ShowNumSelector = true;
+		}
+
+		/* START
 		if (DisplayedNumber < 9) {
 			DisplayedNumber++;
 		} else {
@@ -41,6 +66,7 @@ public class NumPad : MonoBehaviour {
 		}
 		TextField.text = DisplayedNumber.ToString();
 		Casket.GetComponent<Casket>().checkNumCode();
+		END */
 	}
 
 	public bool isCorrect() {
