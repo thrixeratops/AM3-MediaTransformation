@@ -33,10 +33,11 @@ public class Laptop : MonoBehaviour {
 			LaptopAnim.Play("OpenLaptop");
 			GetComponentInChildren<UnityEngine.Video.VideoPlayer>().Play();
 			isOpen = true;
-			GetComponent<Collider>().enabled = false;
+			//GetComponent<Collider>().enabled = false;
 
 		} else {
-			//LaptopAnim.Play(CloseAnimationStateName);
+			LaptopAnim.Play("CloseLaptop");
+			GetComponentInChildren<UnityEngine.Video.VideoPlayer>().Stop();
 			isOpen = false;
 		}
 	}

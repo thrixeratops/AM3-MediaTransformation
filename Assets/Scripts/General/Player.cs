@@ -10,6 +10,8 @@ public class Player : MonoBehaviour {
 	[SerializeField] private Canvas Hud;
 	[SerializeField] private float DelayTime; // Time that will pass until an event will be triggered
 	[SerializeField] private GameObject[] InventoryIcons;
+	[SerializeField] private Camera PlayerCamera;
+	public Transform ObjectHit;
 	private Image RadialProgress; // Image that respresents the FocusTimer on screen
 	private GameObject ActiveObject; // The interactive object that the player is looking at
 	private GameObject LastTeleporter; // The teleporter that was last used (, also functions as spawn point)
@@ -27,6 +29,16 @@ public class Player : MonoBehaviour {
 	}
 
 	private void Update() {
+
+		// Better method to get the focused object
+		/* 
+		RaycastHit hit;
+		Ray ray = PlayerCamera.ScreenPointToRay(Input.mousePosition);
+		if (Physics.Raycast(ray, out hit)) {
+			ObjectHit = hit.transform;
+		}
+		*/
+
 		if (Focus == true) {
 			FocusTimer += Time.deltaTime;
 			RadialProgress.fillAmount = FocusTimer / DelayTime; // Update the timer in HUD
@@ -57,7 +69,12 @@ public class Player : MonoBehaviour {
 				
 				} else if (ActiveObject.GetComponent<Laptop>() != null) {
 					ActiveObject.GetComponent<Laptop>().activate();
+				
+				} else if (ActiveObject.GetComponent<NumPadSelector>() != null) {
+					ActiveObject.GetComponent<NumPadSelector>().activate();
 				}
+
+
 
 				Focus = false; // Prevents the the continuos triggering of events by forcing the player to "re-look" at the object
 				RadialProgress.fillAmount = 0f;

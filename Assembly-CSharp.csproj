@@ -162,11 +162,13 @@
      <Compile Include="Assets\Scripts\General\InventoryObject.cs" />
      <Compile Include="Assets\Scripts\General\Laptop.cs" />
      <Compile Include="Assets\Scripts\General\NumPad.cs" />
+     <Compile Include="Assets\Scripts\General\NumPadSelector.cs" />
      <Compile Include="Assets\Scripts\General\OpenDrawer.cs" />
      <Compile Include="Assets\Scripts\General\Player.cs" />
      <Compile Include="Assets\Scripts\General\ProgressTracker.cs" />
      <Compile Include="Assets\Scripts\General\SwitchLight.cs" />
      <Compile Include="Assets\Scripts\General\Teleporter.cs" />
+     <Compile Include="Assets\Scripts\General\Timer.cs" />
      <Compile Include="Assets\Scripts\States\WakeUp.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />

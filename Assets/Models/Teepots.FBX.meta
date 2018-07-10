@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 49b923bb2ac80a242800dcb02eff30be
+timeCreated: 1530565229
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Action Recovery
+    100002: Action Recovery 1
+    100004: Action Recovery 2
+    100006: Action Recovery 3
+    100008: Action Recovery 4
+    100010: Action Recovery 5
+    100012: Birth 013
+    100014: Birth 014
+    100016: Birth 017
+    100018: Birth 018
+    100020: Birth 021
+    100022: Birth 022
+    100024: Cone153
+    100026: Cone154
+    100028: Cone155
+    100030: Cone156
+    100032: Display 005
+    100034: Display 006
+    100036: Display 007
+    100038: Display 008
+    100040: Display 009
+    100042: Display 010
+    100044: Display 011
+    100046: Display 012
+    100048: Display 013
+    100050: Display 014
+    100052: Display 015
+    100054: Display 016
+    100056: Display 017
+    100058: Display 018
+    100060: Display 019
+    100062: Display 020
+    100064: Display 021
+    100066: Display 022
+    100068: Display 023
+    100070: Display 024
+    100072: Display 025
+    100074: Display 026
+    100076: Display 027
+    100078: Display 032
+    100080: Display 033
+    100082: Display 034
+    100084: Display 035
+    100086: Display 036
+    100088: Display 037
+    100090: Display 038
+    100092: Display 047
+    100094: Display 052
+    100096: Display 053
+    100098: Display 053 1
+    100100: Display 054
+    100102: Display 054 1
+    100104: Display 055
+    100106: Display 055 1
+    100108: Display 056
+    100110: Display 056 1
+    100112: Display 057
+    100114: Display 058
+    100116: Display 059
+    100118: Display 060
+    100120: Display 061
+    100122: Display 062
+    100124: Display 063
+    100126: Display 064
+    100128: Display 065
+    100130: Display 066
+    100132: Display 067
+    100134: Display 068
+    100136: Display 069
+    100138: Display 070
+    100140: Display 071
+    100142: Display 072
+    100144: Display 073
+    100146: Display 074
+    100148: Display 075
+    100150: Display 076
+    100152: Display 077
+    100154: Display 078
+    100156: Display 079
+    100158: Display 080
+    100160: Display 081
+    100162: Display 086
+    100164: Display 087
+    100166: Display 088
+    100168: Display 089
+    100170: Display 089 1
+    100172: Display 090
+    100174: Display 090 1
+    100176: Display 091
+    100178: Display 091 1
+    100180: Display 092
+    100182: Display 092 1
+    100184: Display 093
+    100186: Display 094
+    100188: Display 095
+    100190: Display 096
+    100192: Display 097
+    100194: Display 098
+    100196: Display 099
+    100198: Display 100
+    100200: Display 101
+    100202: Display 102
+    100204: Display 103
+    100206: Display 104
+    100208: Display 105
+    100210: Display 106
+    100212: Display 107
+    100214: Display 108
+    100216: Display 109
+    100218: Display 110
+    100220: Display 111
+    100222: Display 112
+    100224: Display 113
+    100226: Display 114
+    100228: Display 115
+    100230: Display 116
+    100232: Display 117
+    100234: Display 122
+    100236: Display 123
+    100238: Display 124
+    100240: Display 125
+    100242: Display 125 1
+    100244: Display 126
+    100246: Display 126 1
+    100248: Display 127
+    100250: Display 127 1
+    100252: Display 128
+    100254: Display 128 1
+    100256: Display 129
+    100258: Display 130
+    100260: Display 131
+    100262: Display 132
+    100264: Display 133
+    100266: Display 134
+    100268: Display 135
+    100270: Display 136
+    100272: Display 137
+    100274: Display 138
+    100276: Display 139
+    100278: Display 140
+    100280: Display 141
+    100282: Display 142
+    100284: Display 143
+    100286: Display 144
+    100288: Display 145
+    100290: Display 146
+    100292: Display 147
+    100294: Display 148
+    100296: Display 149
+    100298: Display 150
+    100300: Display 151
+    100302: Display 152
+    100304: Display 153
+    100306: Display 154
+    100308: Display 155
+    100310: Display 156
+    100312: Display 161
+    100314: Display 162
+    100316: Display 163
+    100318: Display 164
+    100320: Display 165
+    100322: Display 166
+    100324: Event 005
+    100326: Event 006
+    100328: Event 007
+    100330: Event 008
+    100332: Event 009
+    100334: Event 010
+    100336: Event 011
+    100338: Event 012
+    100340: Event 013
+    100342: Event 014
+    100344: Event 015
+    100346: Event 016
+    100348: Event 017
+    100350: Event 018
+    100352: Event 019
+    100354: Event 020
+    100356: Event 021
+    100358: Event 022
+    100360: Event 023
+    100362: Event 024
+    100364: Event 025
+    100366: Event 026
+    100368: Event 027
+    100370: Event 032
+    100372: Event 033
+    100374: Event 034
+    100376: Event 035
+    100378: Event 036
+    100380: Event 037
+    100382: Event 038
+    100384: Event 047
+    100386: Event 052
+    100388: Event 053
+    100390: Event 053 1
+    100392: Event 054
+    100394: Event 054 1
+    100396: Event 055
+    100398: Event 055 1
+    100400: Event 056
+    100402: Event 056 1
+    100404: Event 057
+    100406: Event 058
+    100408: Event 059
+    100410: Event 060
+    100412: Event 061
+    100414: Event 062
+    100416: Event 063
+    100418: Event 064
+    100420: Event 065
+    100422: Event 066
+    100424: Event 067
+    100426: Event 068
+    100428: Event 069
+    100430: Event 070
+    100432: Event 071
+    100434: Event 072
+    100436: Event 073
+    100438: Event 074
+    100440: Event 075
+    100442: Event 076
+    100444: Event 077
+    100446: Event 078
+    100448: Event 079
+    100450: Event 080
+    100452: Event 081
+    100454: Event 086
+    100456: Event 087
+    100458: Event 088
+    100460: Event 089
+    100462: Event 089 1
+    100464: Event 090
+    100466: Event 090 1
+    100468: Event 091
+    100470: Event 091 1
+    100472: Event 092
+    100474: Event 092 1
+    100476: Event 093
+    100478: Event 094
+    100480: Event 095
+    100482: Event 096
+    100484: Event 097
+    100486: Event 098
+    100488: Event 099
+    100490: Event 100
+    100492: Event 101
+    100494: Event 102
+    100496: Event 103
+    100498: Event 104
+    100500: Event 105
+    100502: Event 106
+    100504: Event 107
+    100506: Event 108
+    100508: Event 109
+    100510: Event 110
+    100512: Event 111
+    100514: Event 112
+    100516: Event 113
+    100518: Event 114
+    100520: Event 115
+    100522: Event 116
+    100524: Event 117
+    100526: Event 122
+    100528: Event 123
+    100530: Event 124
+    100532: Event 125
+    100534: Event 125 1
+    100536: Event 126
+    100538: Event 126 1
+    100540: Event 127
+    100542: Event 127 1
+    100544: Event 128
+    100546: Event 128 1
+    100548: Event 129
+    100550: Event 130
+    100552: Event 131
+    100554: Event 132
+    100556: Event 133
+    100558: Event 134
+    100560: Event 135
+    100562: Event 136
+    100564: Event 137
+    100566: Event 138
+    100568: Event 139
+    100570: Event 140
+    100572: Event 141
+    100574: Event 142
+    100576: Event 143
+    100578: Event 144
+    100580: Event 145
+    100582: Event 146
+    100584: Event 147
+    100586: Event 148
+    100588: Event 149
+    100590: Event 150
+    100592: Event 151
+    100594: Event 152
+    100596: Event 153
+    100598: Event 154
+    100600: Event 155
+    100602: Event 156
+    100604: Event 161
+    100606: Event 162
+    100608: Event 163
+    100610: Position Icon 013
+    100612: Position Icon 014
+    100614: Position Icon 017
+    100616: Position Icon 018
+    100618: Position Icon 021
+    100620: Position Icon 022
+    100622: Render 013
+    100624: Render 014
+    100626: Render 017
+    100628: Render 018
+    100630: Render 021
+    100632: Render 022
+    100634: Rotation 013
+    100636: Rotation 014
+    100638: Rotation 017
+    100640: Rotation 018
+    100642: Rotation 021
+    100644: Rotation 022
+    100646: Shape 013
+    100648: Shape 014
+    100650: Shape 017
+    100652: Shape 018
+    100654: Shape 021
+    100656: Shape 022
+    100658: Speed 013
+    100660: Speed 014
+    100662: Speed 017
+    100664: Speed 018
+    100666: Speed 021
+    100668: Speed 022
+    100670: Teapot009
+    100672: //RootNode
+    400000: Action Recovery
+    400002: Action Recovery 1
+    400004: Action Recovery 2
+    400006: Action Recovery 3
+    400008: Action Recovery 4
+    400010: Action Recovery 5
+    400012: Birth 013
+    400014: Birth 014
+    400016: Birth 017
+    400018: Birth 018
+    400020: Birth 021
+    400022: Birth 022
+    400024: Cone153
+    400026: Cone154
+    400028: Cone155
+    400030: Cone156
+    400032: Display 005
+    400034: Display 006
+    400036: Display 007
+    400038: Display 008
+    400040: Display 009
+    400042: Display 010
+    400044: Display 011
+    400046: Display 012
+    400048: Display 013
+    400050: Display 014
+    400052: Display 015
+    400054: Display 016
+    400056: Display 017
+    400058: Display 018
+    400060: Display 019
+    400062: Display 020
+    400064: Display 021
+    400066: Display 022
+    400068: Display 023
+    400070: Display 024
+    400072: Display 025
+    400074: Display 026
+    400076: Display 027
+    400078: Display 032
+    400080: Display 033
+    400082: Display 034
+    400084: Display 035
+    400086: Display 036
+    400088: Display 037
+    400090: Display 038
+    400092: Display 047
+    400094: Display 052
+    400096: Display 053
+    400098: Display 053 1
+    400100: Display 054
+    400102: Display 054 1
+    400104: Display 055
+    400106: Display 055 1
+    400108: Display 056
+    400110: Display 056 1
+    400112: Display 057
+    400114: Display 058
+    400116: Display 059
+    400118: Display 060
+    400120: Display 061
+    400122: Display 062
+    400124: Display 063
+    400126: Display 064
+    400128: Display 065
+    400130: Display 066
+    400132: Display 067
+    400134: Display 068
+    400136: Display 069
+    400138: Display 070
+    400140: Display 071
+    400142: Display 072
+    400144: Display 073
+    400146: Display 074
+    400148: Display 075
+    400150: Display 076
+    400152: Display 077
+    400154: Display 078
+    400156: Display 079
+    400158: Display 080
+    400160: Display 081
+    400162: Display 086
+    400164: Display 087
+    400166: Display 088
+    400168: Display 089
+    400170: Display 089 1
+    400172: Display 090
+    400174: Display 090 1
+    400176: Display 091
+    400178: Display 091 1
+    400180: Display 092
+    400182: Display 092 1
+    400184: Display 093
+    400186: Display 094
+    400188: Display 095
+    400190: Display 096
+    400192: Display 097
+    400194: Display 098
+    400196: Display 099
+    400198: Display 100
+    400200: Display 101
+    400202: Display 102
+    400204: Display 103
+    400206: Display 104
+    400208: Display 105
+    400210: Display 106
+    400212: Display 107
+    400214: Display 108
+    400216: Display 109
+    400218: Display 110
+    400220: Display 111
+    400222: Display 112
+    400224: Display 113
+    400226: Display 114
+    400228: Display 115
+    400230: Display 116
+    400232: Display 117
+    400234: Display 122
+    400236: Display 123
+    400238: Display 124
+    400240: Display 125
+    400242: Display 125 1
+    400244: Display 126
+    400246: Display 126 1
+    400248: Display 127
+    400250: Display 127 1
+    400252: Display 128
+    400254: Display 128 1
+    400256: Display 129
+    400258: Display 130
+    400260: Display 131
+    400262: Display 132
+    400264: Display 133
+    400266: Display 134
+    400268: Display 135
+    400270: Display 136
+    400272: Display 137
+    400274: Display 138
+    400276: Display 139
+    400278: Display 140
+    400280: Display 141
+    400282: Display 142
+    400284: Display 143
+    400286: Display 144
+    400288: Display 145
+    400290: Display 146
+    400292: Display 147
+    400294: Display 148
+    400296: Display 149
+    400298: Display 150
+    400300: Display 151
+    400302: Display 152
+    400304: Display 153
+    400306: Display 154
+    400308: Display 155
+    400310: Display 156
+    400312: Display 161
+    400314: Display 162
+    400316: Display 163
+    400318: Display 164
+    400320: Display 165
+    400322: Display 166
+    400324: Event 005
+    400326: Event 006
+    400328: Event 007
+    400330: Event 008
+    400332: Event 009
+    400334: Event 010
+    400336: Event 011
+    400338: Event 012
+    400340: Event 013
+    400342: Event 014
+    400344: Event 015
+    400346: Event 016
+    400348: Event 017
+    400350: Event 018
+    400352: Event 019
+    400354: Event 020
+    400356: Event 021
+    400358: Event 022
+    400360: Event 023
+    400362: Event 024
+    400364: Event 025
+    400366: Event 026
+    400368: Event 027
+    400370: Event 032
+    400372: Event 033
+    400374: Event 034
+    400376: Event 035
+    400378: Event 036
+    400380: Event 037
+    400382: Event 038
+    400384: Event 047
+    400386: Event 052
+    400388: Event 053
+    400390: Event 053 1
+    400392: Event 054
+    400394: Event 054 1
+    400396: Event 055
+    400398: Event 055 1
+    400400: Event 056
+    400402: Event 056 1
+    400404: Event 057
+    400406: Event 058
+    400408: Event 059
+    400410: Event 060
+    400412: Event 061
+    400414: Event 062
+    400416: Event 063
+    400418: Event 064
+    400420: Event 065
+    400422: Event 066
+    400424: Event 067
+    400426: Event 068
+    400428: Event 069
+    400430: Event 070
+    400432: Event 071
+    400434: Event 072
+    400436: Event 073
+    400438: Event 074
+    400440: Event 075
+    400442: Event 076
+    400444: Event 077
+    400446: Event 078
+    400448: Event 079
+    400450: Event 080
+    400452: Event 081
+    400454: Event 086
+    400456: Event 087
+    400458: Event 088
+    400460: Event 089
+    400462: Event 089 1
+    400464: Event 090
+    400466: Event 090 1
+    400468: Event 091
+    400470: Event 091 1
+    400472: Event 092
+    400474: Event 092 1
+    400476: Event 093
+    400478: Event 094
+    400480: Event 095
+    400482: Event 096
+    400484: Event 097
+    400486: Event 098
+    400488: Event 099
+    400490: Event 100
+    400492: Event 101
+    400494: Event 102
+    400496: Event 103
+    400498: Event 104
+    400500: Event 105
+    400502: Event 106
+    400504: Event 107
+    400506: Event 108
+    400508: Event 109
+    400510: Event 110
+    400512: Event 111
+    400514: Event 112
+    400516: Event 113
+    400518: Event 114
+    400520: Event 115
+    400522: Event 116
+    400524: Event 117
+    400526: Event 122
+    400528: Event 123
+    400530: Event 124
+    400532: Event 125
+    400534: Event 125 1
+    400536: Event 126
+    400538: Event 126 1
+    400540: Event 127
+    400542: Event 127 1
+    400544: Event 128
+    400546: Event 128 1
+    400548: Event 129
+    400550: Event 130
+    400552: Event 131
+    400554: Event 132
+    400556: Event 133
+    400558: Event 134
+    400560: Event 135
+    400562: Event 136
+    400564: Event 137
+    400566: Event 138
+    400568: Event 139
+    400570: Event 140
+    400572: Event 141
+    400574: Event 142
+    400576: Event 143
+    400578: Event 144
+    400580: Event 145
+    400582: Event 146
+    400584: Event 147
+    400586: Event 148
+    400588: Event 149
+    400590: Event 150
+    400592: Event 151
+    400594: Event 152
+    400596: Event 153
+    400598: Event 154
+    400600: Event 155
+    400602: Event 156
+    400604: Event 161
+    400606: Event 162
+    400608: Event 163
+    400610: Position Icon 013
+    400612: Position Icon 014
+    400614: Position Icon 017
+    400616: Position Icon 018
+    400618: Position Icon 021
+    400620: Position Icon 022
+    400622: Render 013
+    400624: Render 014
+    400626: Render 017
+    400628: Render 018
+    400630: Render 021
+    400632: Render 022
+    400634: Rotation 013
+    400636: Rotation 014
+    400638: Rotation 017
+    400640: Rotation 018
+    400642: Rotation 021
+    400644: Rotation 022
+    400646: Shape 013
+    400648: Shape 014
+    400650: Shape 017
+    400652: Shape 018
+    400654: Shape 021
+    400656: Shape 022
+    400658: Speed 013
+    400660: Speed 014
+    400662: Speed 017
+    400664: Speed 018
+    400666: Speed 021
+    400668: Speed 022
+    400670: Teapot009
+    400672: //RootNode
+    2300000: Cone153
+    2300002: Cone154
+    2300004: Cone155
+    2300006: Cone156
+    2300008: Teapot009
+    3300000: Cone153
+    3300002: Cone154
+    3300004: Cone155
+    3300006: Cone156
+    3300008: Teapot009
+    4300000: Teapot009
+    4300002: Cone153
+    4300004: Cone154
+    4300006: Cone155
+    4300008: Cone156
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teekanne
+    second: {fileID: 2100000, guid: 37ee6dc47c9780a4aa5c70f2b2a2e77b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

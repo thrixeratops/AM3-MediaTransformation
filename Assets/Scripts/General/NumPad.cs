@@ -69,6 +69,13 @@ public class NumPad : MonoBehaviour {
 		END */
 	}
 
+	public void displayNumber(int num) {
+		DisplayedNumber = num;
+		TextField.text = DisplayedNumber.ToString();
+		Casket.GetComponent<Casket>().checkNumCode();
+		activate();
+	}
+
 	public bool isCorrect() {
 		if (DisplayedNumber == CorrectNumber) {
 			return true;
