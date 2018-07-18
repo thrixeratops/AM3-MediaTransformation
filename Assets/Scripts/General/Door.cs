@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Door : MonoBehaviour {
 
-	[SerializeField] Animator DoorAnim;
+	[SerializeField] private Animator DoorAnim;
+	[SerializeField] private Timer Playtime;
+	[SerializeField] private AudioSource EndSample;
 	private GameObject Player;
 
 	private void Start() {
@@ -27,10 +29,13 @@ public class Door : MonoBehaviour {
 
 	public void activate() {
 		if (Player.GetComponent<Player>().getProgressTracker().getStatusBool("GetKey") == false) {
+			GetComponents<AudioSource>()[1].Play();
 			return;
 		} else {
+			Playtime.stopTimer();
 			DoorAnim.Play("OpenDoor");
-			GetComponent<AudioSource>().Play();
+			EndSample.Play();
+			GetComponents<AudioSource>()[0].Play();
 		}
 	}
 

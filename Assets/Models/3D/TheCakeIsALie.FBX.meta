@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 3d4753478e0303144a6679c329f5b571
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: Cylinder002
+    100004: OilTank001
+    100006: OilTank002
+    100008: OilTank003
+    100010: OilTank004
+    100012: OilTank005
+    100014: OilTank006
+    100016: OilTank007
+    100018: OilTank008
+    100020: OilTank009
+    100022: //RootNode
+    400000: Cylinder001
+    400002: Cylinder002
+    400004: OilTank001
+    400006: OilTank002
+    400008: OilTank003
+    400010: OilTank004
+    400012: OilTank005
+    400014: OilTank006
+    400016: OilTank007
+    400018: OilTank008
+    400020: OilTank009
+    400022: //RootNode
+    2100000: 03 - Default
+    2100002: 07 - Default
+    2100004: 02 - Default
+    2100006: 01 - Default
+    2300000: Cylinder001
+    2300002: Cylinder002
+    2300004: OilTank001
+    2300006: OilTank002
+    2300008: OilTank003
+    2300010: OilTank004
+    2300012: OilTank005
+    2300014: OilTank006
+    2300016: OilTank007
+    2300018: OilTank008
+    2300020: OilTank009
+    3300000: Cylinder001
+    3300002: Cylinder002
+    3300004: OilTank001
+    3300006: OilTank002
+    3300008: OilTank003
+    3300010: OilTank004
+    3300012: OilTank005
+    3300014: OilTank006
+    3300016: OilTank007
+    3300018: OilTank008
+    3300020: OilTank009
+    4300000: Cylinder001
+    4300002: OilTank001
+    4300004: OilTank002
+    4300006: OilTank003
+    4300008: OilTank004
+    4300010: OilTank005
+    4300012: OilTank006
+    4300014: OilTank007
+    4300016: OilTank008
+    4300018: OilTank009
+    4300020: Cylinder002
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cake-texture
+    second: {fileID: 2800000, guid: a7dabc0d3b2e82d4691d4df9e72739f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mld104428_0910_whitefrstoh2_sq
+    second: {fileID: 2800000, guid: 1210362e6103f424f8dddc90044a1e00, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

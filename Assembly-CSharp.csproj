@@ -157,9 +157,11 @@
      <Compile Include="Assets\Scripts\General\CanvasDistance.cs" />
      <Compile Include="Assets\Scripts\General\Casket.cs" />
      <Compile Include="Assets\Scripts\General\Door.cs" />
+     <Compile Include="Assets\Scripts\General\IntroStart.cs" />
      <Compile Include="Assets\Scripts\General\InventoryBook.cs" />
      <Compile Include="Assets\Scripts\General\InventoryKey.cs" />
      <Compile Include="Assets\Scripts\General\InventoryObject.cs" />
+     <Compile Include="Assets\Scripts\General\ItemObeserver.cs" />
      <Compile Include="Assets\Scripts\General\Laptop.cs" />
      <Compile Include="Assets\Scripts\General\NumPad.cs" />
      <Compile Include="Assets\Scripts\General\NumPadSelector.cs" />

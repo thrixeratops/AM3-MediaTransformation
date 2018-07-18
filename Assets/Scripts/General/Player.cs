@@ -72,6 +72,9 @@ public class Player : MonoBehaviour {
 				
 				} else if (ActiveObject.GetComponent<NumPadSelector>() != null) {
 					ActiveObject.GetComponent<NumPadSelector>().activate();
+				
+				} else if (ActiveObject.GetComponent<IntroStart>() != null) {
+					ActiveObject.GetComponent<IntroStart>().activate();
 				}
 
 

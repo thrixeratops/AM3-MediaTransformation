@@ -9,7 +9,7 @@ public class NumPad : MonoBehaviour {
 	[SerializeField] private GameObject NumSelector;
 	private GameObject Player;
 	private Component Casket;
-	private Text TextField;
+	[SerializeField] private Text TextField;
 	private int DisplayedNumber;
 	private Component[] NumCollider;
 	private bool ShowNumSelector;
@@ -17,7 +17,7 @@ public class NumPad : MonoBehaviour {
 	void Start() {
 		Player = GameObject.Find("Player");
 		Casket = GetComponentInParent<Casket>();
-		TextField = GetComponentInChildren<Text>();
+		//TextField = GetComponentInChildren<Text>();
 		DisplayedNumber = 0;
 		TextField.text = DisplayedNumber.ToString();
 		NumCollider = NumSelector.GetComponentsInChildren<Collider>();
