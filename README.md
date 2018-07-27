@@ -1,7 +1,7 @@
 # AM3-MediaTransformation
 Media Transformation II - Interactive Storytelling in Virtual Reality
 
-Projekt WS18/19: https://github.com/thrixeratops/AM3-MediaTransformationWS17
+Projekt WS17/18: https://github.com/thrixeratops/AM3-MediaTransformationWS17
 
 VR-Projekt: Sherlock-inspired Escape Room
 
