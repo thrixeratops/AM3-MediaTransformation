@@ -4,6 +4,7 @@ Media Transformation II - Interactive Storytelling in Virtual Reality
 Projekt WS17/18: https://github.com/thrixeratops/AM3-MediaTransformationWS17
 
 VR-Projekt: Sherlock-inspired Escape Room
+Gruppe: Anna Bambach, Natascha Krueger, Alexander Schroeder
 
 ## Informationen:  
 - Start des Projektes: Sommersemester 2018
